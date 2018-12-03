@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuGuardia">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/datosGuardia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bIniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="iniciarTurno"
+        android:text="Iniciar Turno" />
+
+    <TextView
+        android:id="@+id/vLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/vLong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/bTerminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="terminarTurno"
+        android:text="Terminar Turno" />
+
+</LinearLayout>
